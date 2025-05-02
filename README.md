@@ -1,5 +1,5 @@
 POSTGRESQL HIGH AVAILABILITY CLUSTER DOCUMENTATION
-By Abdelkarim Benabllah - karim2k@gmail.com
+By Abdelkarim Benabllah - [karim2k@gmail.com](https://medium.com/@karim2k)
 
 PROJECT OVERVIEW
 This project sets up a secure PostgreSQL cluster with automatic failover capabilities. It ensures continuous database availability even during server failures or maintenance.
