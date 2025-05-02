@@ -33,7 +33,6 @@ postgres-ha-solution/
 
 ```mermaid
 %% PostgreSQL HA Setup Workflow
-%% Compatible with GitHub Markdown rendering
 
 graph LR
     A[🔐 Generate SSL Certs] --> B[⚙️ Install PostgreSQL]
