@@ -34,11 +34,6 @@ Expected behavior:
 - Replica promoted within 30 seconds
 - Clients automatically reconnect
 
-## Documentation
-- [SETUP.md](SETUP.md) - Installation guide
-- [FAILOVER.md](FAILOVER.md) - Failover procedures
-- [MONITORING.md](MONITORING.md) - Alert configuration
-- [SECURITY.md](SECURITY.md) - Security practices
 
 ## Requirements
 - Docker and docker-compose
