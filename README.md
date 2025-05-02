@@ -31,13 +31,16 @@ postgres-ha-solution/
 
 
 
-#Visual Workflow
+```mermaid
+%% PostgreSQL HA Setup Workflow
+%% Compatible with GitHub Markdown rendering
+
 graph LR
-    A[Generate SSL Certs] --> B[Install PostgreSQL]
-    B --> C[Configure Primary]
-    C --> D[Configure Replica]
-    D --> E[Test Replication]
-    E --> F[Test Failover]
+    A[🔐 Generate SSL Certs] --> B[⚙️ Install PostgreSQL]
+    B --> C[🏗️ Configure Primary]
+    C --> D[🔄 Configure Replica]
+    D --> E[✅ Test Replication]
+    E --> F[🚨 Test Failover]
 
 ## Overview
 This solution implements a highly available PostgreSQL cluster for healthcare applications requiring minimal downtime. The architecture features automated failover, comprehensive monitoring, and security compliance.
